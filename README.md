@@ -51,10 +51,13 @@ npm install
 3. **Setup environment variables**
 Create a `.env` file in the root directory:
 ```
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/crowdconnect
-JWT_SECRET=your_secret_key_here
-NODE_ENV=development
+PORT=3000
+MONGODB_URI=mongodb+srv://prince:Princesingh@cluster0.ne6tavc.mongodb.net/crowdconnect?appName=Cluster0
+MONGODB_ATLAS_PUBLIC_DNS=1
+JWT_SECRET=8cd896207f9cdda7dc45665a79a384eed56e8c74f7757636d2d91d4d83056c05
+JWT_EXPIRE=7d
+JWT_REFRESH_SECRET=3d2bcf728ed624f151e41854e44b9985444d7d17cc17a34cb462f5f03a2bc353
+JWT_REFRESH_EXPIRE=30d
 ```
 
 4. **Seed the database (optional)**
